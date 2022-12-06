@@ -1,0 +1,20 @@
+package codeforces;
+
+import java.util.*;
+
+public class Main {
+//	3 13
+//	3 1 4
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+		int testCase = sc.nextInt();
+		
+		while(testCase-- < 0) {
+			int n = sc.nextInt();
+			int total = sc.nextInt();
+			
+		}
+		sc.close();
+	}
+
+}

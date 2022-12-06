@@ -1,0 +1,33 @@
+package codeforces;
+
+import java.util.*;
+
+public class Main {
+	
+//	12
+//	YES
+//	esYes
+//	codeforces
+//	es
+//	se
+//	YesY
+//	esYesYesYesYesYesYe
+//	seY
+//	Yess
+//	sY
+//	o
+//	Yes
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int testCase = sc.nextInt();
+		
+		while(testCase-- >= 0) {
+			String s = sc.next();
+			System.out.println(s);
+		}
+		
+		sc.close();
+	}
+
+}

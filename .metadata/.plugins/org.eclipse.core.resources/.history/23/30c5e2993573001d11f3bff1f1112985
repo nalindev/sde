@@ -1,0 +1,25 @@
+package codeforces;
+
+import java.util.*;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int testCase = sc.nextInt();
+		
+		while(testCase-- >= 0) {
+			String s = sc.next();
+			String org = "YesYesYesYesYesYesYesYesYesYesYesYesYesYesYesYesYesYesYes";
+			
+			if(org.contains(s)) {
+				System.out.println("YES");
+			}else {
+				System.out.println("NO");
+			}
+		}
+		
+		sc.close();
+	}
+
+}

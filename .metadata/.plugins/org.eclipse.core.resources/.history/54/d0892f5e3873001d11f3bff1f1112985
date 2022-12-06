@@ -1,0 +1,36 @@
+package codeforces;
+
+import java.util.*;
+
+public class Main {
+//	3 13
+//	3 1 4
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+		int testCase = sc.nextInt();
+		
+		//testCase count start
+		while(testCase-- > 0) {
+			int n = sc.nextInt();
+			int total = sc.nextInt();
+			
+			int a[] = new int[n];
+			
+			int mx = 0, totsum = 0;
+			for(int i = 0; i < n; i++) {
+				a[i] = sc.nextInt();
+				
+				totsum += a[i];
+				if(a[i] > mx) mx = a[i];
+			}
+			
+			mx = (mx*(mx+1))/2
+			
+			System.out.println(totsum);
+		}
+		
+		//Scanner close after all testCases
+		sc.close();
+	}
+
+}
