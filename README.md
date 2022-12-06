@@ -11,7 +11,7 @@ Learning spring, spring container (IOC &amp; DI) , springboot, Spring Bean, MVC 
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-##job requirements -
+## job requirements -
 
 1) strong knowledge of DBMS - (optimising queries, schema design, indexing, caching)
 2) react.js
@@ -21,7 +21,9 @@ Learning spring, spring container (IOC &amp; DI) , springboot, Spring Bean, MVC 
 6) computer science fundamentals (algorithms, networking and OS )
 7) Working on AWS services lambda, SNS/ SQS, Cloud watch.
 
-Thing that is needed in my project and experiance -
+-----------------------------
+
+## Thing that is needed in my project and experiance -
 1) elastic search
 2) ETL Pipelines (optional but good to know)
 3) ranking and recommendation system
