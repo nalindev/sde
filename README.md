@@ -38,7 +38,7 @@ javascript react
 
 --------------------------------
 
-kloudgin tool - jenkins, sourcetree, github,eclipse,mongodb,
+*loud*** tools - jenkins, sourcetree, github,eclipse,mongodb,
  dbeaver, aws, agile,java spring
 
 ------------------------------------
