@@ -2,7 +2,7 @@
 Learning spring, spring container (IOC &amp; DI) , springboot, Spring Bean, MVC pattern, Hibernate, AO, maven &amp; sprng security
 
 ## Steps to be followed - 
-* Spring Inversion of control - XML Configuration
+* Spring Inversion of control - XML Configuration               -          ✅ Completed
 * Spring Dependency Injection - XML Configuration
 * Spring Bean Scopes and Lifecycle
 * Spring Configuration using java annotation
