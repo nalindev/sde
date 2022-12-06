@@ -1,11 +1,9 @@
 package com.springdemo;
 
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-
 /*
  * Spring container - primary functions
  *   1. Create and manage objects (Inversion of control)
- *   2. Inject object's dependencies (Dependency injection
+ *   2. Inject object's dependencies (Dependency injection)
  *   
  * Configuring Spring Container (3 ways)
  *   1. XML configuration file (legacy, but most legacy apps still use this)
@@ -28,6 +26,12 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * Check SpringHelloApp.java file for spring Bean use cases.
  */
 
+/*
+ * The Two most common dependency injection are - 
+ *    1. Constructor injection
+ *    2. Setter Injection
+ *    3. auto-wiring
+ */
 public class MyApp {
 
 	public static void main(String[] args) {
