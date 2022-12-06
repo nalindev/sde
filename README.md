@@ -14,7 +14,7 @@ Learning spring, spring container (IOC &amp; DI) , springboot, Spring Bean, MVC 
 ##job requirements -
 
 1) strong knowledge of DBMS - (optimising queries, schema design, indexing, caching)
-2) Node.js & react.js
+2) react.js
 3) java (springboot)
 4) cloud & cloud computing
 5) operating system ( sistributed system)
