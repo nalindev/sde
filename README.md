@@ -12,6 +12,10 @@ Learning spring, spring container (IOC &amp; DI) , springboot, Spring Bean, MVC 
 | Spring MVC Pattern                                   |               | 
 
 
+----------------------------------------------------------
+### FAQ for revison
+<img src="https://user-images.githubusercontent.com/86837840/205998080-c7eb23db-f112-43a6-a7ac-0cf3c0247713.png" width="150" height="150">
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 ## job requirements -
