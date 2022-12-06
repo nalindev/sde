@@ -1,5 +1,7 @@
 package com.springdemo;
 
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 /*
  * Spring container - primary functions
  *   1. Create and manage objects (Inversion of control)
@@ -21,6 +23,9 @@ package com.springdemo;
  * 			   - when java objects are created by the spring container, then spring refers to them as "Spring Beans".
  * 
  *         Def - In spring, the objects that form the backbone of your application and that are managed by the spring IOC container are called beans.
+ *         
+ *
+ * Check SpringHelloApp.java file for spring Bean use cases.
  */
 
 public class MyApp {
@@ -30,6 +35,7 @@ public class MyApp {
 		Coach theCoach = new TrackCoach();
 		
 		System.out.println(theCoach.getDailyWorkout());
+
 	}
 
 }
