@@ -14,7 +14,7 @@ Learning spring, spring container (IOC &amp; DI) , springboot, Spring Bean, MVC 
 
 ----------------------------------------------------------
 ### FAQ for revison
-![image](https://user-images.githubusercontent.com/86837840/205998080-c7eb23db-f112-43a6-a7ac-0cf3c0247713.png)
+![image](https://user-images.githubusercontent.com/86837840/205998080-c7eb23db-f112-43a6-a7ac-0cf3c0247713.png | width=100)
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
