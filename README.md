@@ -6,7 +6,7 @@ Learning spring, spring container (IOC &amp; DI) , springboot, Spring Bean, MVC 
 | ---------------------------------------------------- |:-------------:|
 | Spring Inversion of control - XML Configuration      | ✅ Completed |
 | Spring Dependency Injection - XML Configuration      | ✅ Completed |
-| Spring Bean Scopes and Lifecycle                     |               | 
+| Spring Bean Scopes and Lifecycle                     | ✅ Completed | 
 | Spring Configuration using java annotation           |               | 
 | Spring Configuraion with java code                   |               | 
 | Spring MVC Pattern                                   |               | 
