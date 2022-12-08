@@ -22,6 +22,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 *   - Add the @Component annoation to your java classes
 *   - Retrieve bean from spring container
 *
+*
+* Default Bean ID - spring also support defaults bean ID
+*                 - the class name, make first letter lower-case.
+*                 - @Component - dont need to provide ID within ("")
 */
 
 public class AnnotationDemoApp {
@@ -32,7 +36,7 @@ public class AnnotationDemoApp {
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		
 		//get the bean from spring container
-		Coach theCoach = context.getBean("thatSillyCoach", Coach.class);
+		Coach theCoach = context.getBean("tennisCoach", Coach.class);
 		
 		//call a method on the bean
 		System.out.println(theCoach.getDailyWorkout());
