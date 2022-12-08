@@ -32,6 +32,39 @@ package com.springdemo;
  *    2. Setter Injection
  *    3. auto-wiring
  */
+
+
+/*
+ * singleton bean scope -
+ *   - it is default scope
+ *   - spring container creates only one instance of the bean, by default
+ *   - it is cached in memory 
+ *   - all request for the bean will return a SHARED reference of the same bean.
+ *   
+ *   scope="singleton" in bean xml file
+ *   
+ */
+
+/*
+ * Spring bean scopes - 
+ *    1. singleton - creates a single shared instance of the bean. Default scope.
+ *    2. prototype - creates a new bean instances for each container request.
+ *    3. request - scoped to an HTTP web req. ( only used for web app )
+ *    4. session - scoped to an HTTP web session. ( only used for web app )
+ *    5. global-session - scoped to global HTTP web session. ( only used for web app )
+ *    
+ * Bean Lifecycle - 
+ *    Container started -> Bean instantiated -> Dependencies injected -> Internal spring processing -> your custom init method -> Ready to use
+ *    
+ *    - we can add custom code during bean initialization ( setting up handles to db, sockets, file etc )
+ *      - <bean id="myCoach" class="com.springdemo" init-method="doMyStartupStuff"></bean>
+ *    
+ *    - we can also add custom code during bean destruction (clean up handles to resources db, sockets etc ) .
+ *      - <bean id="myCoach" class="com.springdemo" destroy-method="doMyStartupStuff"></bean>
+ *      
+ *      
+ * NOTE -> for "prototype" scoped beans, spring never call the destroy method.
+ */
 public class MyApp {
 
 	public static void main(String[] args) {
