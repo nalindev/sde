@@ -12,7 +12,7 @@ Learning spring, spring container (IOC &amp; DI) , springboot, Spring Bean, MVC 
 | Spring MVC Pattern                                   |               | 
 
 ---------------------------------------------------------
-##senario based questions
+## senario based questions
 
 
 ----------------------------------------------------------
