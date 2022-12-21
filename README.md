@@ -11,6 +11,9 @@ Learning spring, spring container (IOC &amp; DI) , springboot, Spring Bean, MVC 
 | Spring Configuraion with java code                   |               | 
 | Spring MVC Pattern                                   |               | 
 
+---------------------------------------------------------
+## senario based questions
+
 
 ----------------------------------------------------------
 ### FAQ for revison
