@@ -23,6 +23,12 @@ Country:
 </form:select>
 
 <br><br>
+Operating System: 
+Linux <form:checkbox path="operatingSystems" value="linux"/>
+MAC OS <form:checkbox path="operatingSystems" value="MAC OS"/>
+Windows <form:checkbox path="operatingSystems" value="Windows"/>
+
+<br><br>
 <input type="submit" value="submit"/>
 
 </form:form>
