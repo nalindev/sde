@@ -21,13 +21,6 @@ Dependency - Validation (Bean Validation with Hibernate validator)
 
 ORM - Object relational mapping 
 
-Hibernate - A framework for saving java objects in a database.
-
-benefits -
-1. Hibernate handle all of the low level sql
-2. Minimizes the amount of JDBC code you have to develop
-3. Hibernate provides the object-Relational mapping (ORM)
-
 */
 
 public class Customer {
