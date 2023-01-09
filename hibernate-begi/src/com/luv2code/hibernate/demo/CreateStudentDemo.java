@@ -35,6 +35,19 @@ public class CreateStudentDemo {
 			session.getTransaction().commit();
 			System.out.println("done...");
 			
+			/*
+			 * update email of all student using querying
+			 */
+			
+			session = factory.getCurrentSession();
+			session.beginTransaction();
+			
+			System.out.println("update email for all student: ");
+			session.createQuery("update Student set email='fck@spring.com'").executeUpdate();
+			
+			session.getTransaction().commit();
+			System.out.println("done...");
+			
 		}finally {
 			factory.close();
 		}
